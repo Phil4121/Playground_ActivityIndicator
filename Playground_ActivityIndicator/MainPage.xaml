@@ -12,11 +12,7 @@
             Spacing="25"
             VerticalOptions="Center">
 
-            <ActivityIndicator
-                AbsoluteLayout.LayoutBounds="0.5,0.5,0.1,0.1"
-                AbsoluteLayout.LayoutFlags="All"
-                IsRunning="{Binding IsLoading}"
-                IsVisible="True" />
+            <ActivityIndicator IsRunning="{Binding IsLoading}" IsVisible="True" />
 
             <Button
                 x:Name="CounterBtn"
